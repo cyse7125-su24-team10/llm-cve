@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.0.0...v1.1.0) (2024-08-12)
+
+
+### Features
+
+* multistage docker file ([6b6fa4e](https://github.com/cyse7125-su24-team10/llm-cve/commit/6b6fa4e50f218de5f5134e466abb0fc8bdb383df))
+
 # 1.0.0 (2024-08-12)
 
 
