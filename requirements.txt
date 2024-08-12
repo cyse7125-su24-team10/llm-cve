@@ -28,4 +28,4 @@ langchain
 langchain_community
 faiss-cpu
 langchain-groq
-sentence_transformers
+#sentence_transformers
