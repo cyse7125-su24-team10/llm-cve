@@ -76,7 +76,7 @@ document_chain = create_stuff_documents_chain(llm, prompt)
 retriever = st.session_state.vectors.as_retriever()
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
-user_prompt = st.text_input("Input your prompt here")
+user_prompt = st.text_input("prompt")
 
 if user_prompt:
     start = time.process_time()
@@ -84,7 +84,7 @@ if user_prompt:
     st.write("Response time: ", time.process_time() - start)
     st.write(response['answer'])
 
-    with st.expander("Document Similarity Search"):
+    with st.expander("Source Documents"):
         for doc in response["context"]:
             st.write(doc.page_content)
             st.write("--------------------------------")
