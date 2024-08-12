@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.1.0...v1.2.0) (2024-08-12)
+
+
+### Features
+
+* faster docker build ([8975a1b](https://github.com/cyse7125-su24-team10/llm-cve/commit/8975a1be24ebdfa4a61b92e2b8801c3234ce8c04))
+
 # [1.1.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.0.0...v1.1.0) (2024-08-12)
 
 
