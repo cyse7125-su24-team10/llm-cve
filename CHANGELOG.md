@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.2.0...v1.3.0) (2024-08-13)
+
+
+### Features
+
+* integrated pincone vector db for large datasets ([dd29bbb](https://github.com/cyse7125-su24-team10/llm-cve/commit/dd29bbb62c59b6bf98751cbbf90a707ee5323edb))
+
 # [1.2.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.1.0...v1.2.0) (2024-08-12)
 
 
