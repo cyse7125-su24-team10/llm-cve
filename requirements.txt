@@ -29,3 +29,5 @@ langchain_community
 faiss-cpu
 langchain-groq
 #sentence_transformers
+pinecone-client
+langchain-pinecone
