@@ -40,7 +40,7 @@ qa = RetrievalQA.from_chain_type(
 )
 
 # Streamlit UI
-st.title("ChatGroq Demo with CVE Data")
+st.title("RAG LLM on CVE Data")
 
 # User input
 user_prompt = st.text_input("Enter your question:")
