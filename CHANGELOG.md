@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.3.0...v1.4.0) (2024-08-14)
+
+
+### Bug Fixes
+
+* title ([4820c5a](https://github.com/cyse7125-su24-team10/llm-cve/commit/4820c5ae83e9900de60fc39a2d7ae88612331007))
+
+
+### Features
+
+* chnaged title ([ebb45e1](https://github.com/cyse7125-su24-team10/llm-cve/commit/ebb45e19123eac7c8acc5db89b042c76358fd859))
+
 # [1.3.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.2.0...v1.3.0) (2024-08-13)
 
 
