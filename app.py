@@ -6,6 +6,7 @@ from langchain_groq import ChatGroq
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain_pinecone import PineconeVectorStore
 from langchain.chains import RetrievalQA
+from langchain_community.llms import Ollama
 
 # Load environment variables from .env file
 load_dotenv()
@@ -25,7 +26,12 @@ embeddings = HuggingFaceBgeEmbeddings(
 )
 
 # Initialize the ChatGroq model
-llm = ChatGroq(groq_api_key=os.getenv("groq_api_key"), model_name=os.getenv("groq_model_name"))
+# llm = ChatGroq(groq_api_key=os.getenv("groq_api_key"), model_name=os.getenv("groq_model_name"))
+ollama_host = os.getenv("LLM_HOST")
+print(f"Ollama host: {ollama_host}")
+llm = Ollama(model="llama3" ,base_url=ollama_host)
+print("LLM initialized")
+
 
 # Initialize a LangChain object for retrieving information from Pinecone.
 index = pc.Index(index_name)

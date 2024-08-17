@@ -1,0 +1,17 @@
+FROM debian:bullseye-slim
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN curl -fsSL https://ollama.com/install.sh | sh
+
+# Start Ollama app and pull the model
+RUN ollama serve & \
+    sleep 5 && \
+    ollama pull llama3
+
+EXPOSE 11434
+
+ENTRYPOINT ["ollama", "serve"]
