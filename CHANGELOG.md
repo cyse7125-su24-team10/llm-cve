@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.4.0...v1.5.0) (2024-08-17)
+
+
+### Features
+
+* created ollama image ([7d1c2f6](https://github.com/cyse7125-su24-team10/llm-cve/commit/7d1c2f60e2c5188ee8114d7ea3991a3d89f9504d))
+
 # [1.4.0](https://github.com/cyse7125-su24-team10/llm-cve/compare/v1.3.0...v1.4.0) (2024-08-14)
 
 
