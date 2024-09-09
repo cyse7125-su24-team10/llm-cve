@@ -2,6 +2,12 @@
 
 This project generates embeddings for CVE (Common Vulnerabilities and Exposures) descriptions, stores them in a Pinecone vector database, and provides a Streamlit interface for querying the data using a language model(llama3).
 
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C.svg?style=for-the-badge&logo=LangChain&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000.svg?style=for-the-badge&logo=Ollama&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=Docker&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E.svg?style=for-the-badge&logo=Hugging-Face&logoColor=black)
+
+
 ## Prerequisites
 
 - Docker
